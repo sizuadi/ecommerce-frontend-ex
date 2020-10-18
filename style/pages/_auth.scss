@@ -1,0 +1,22 @@
+.page-auth{
+    .row-login{
+        min-height: 65vh;
+    }
+    .section-store-auth{
+        
+        .btn-sign-up{
+            @include button-variant(#F3F3F3, transparent);
+            margin-top: 10px;
+            color: #bbbbbb;
+        }
+
+        h2{
+            font-weight: 200;
+            font-size: 28px;
+            line-height: 42px;
+            color: #0C0D36;
+        }
+
+    }
+
+}

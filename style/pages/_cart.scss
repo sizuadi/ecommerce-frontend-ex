@@ -1,0 +1,38 @@
+.store-cart{
+    h2{
+        font-weight: 600;
+        font-size: 16px;
+        color: #0C0D36;
+        margin-top: 18px;
+    }
+
+    .product-title{
+        font-weight: normal;
+        font-size: 18px;        
+        color: #0C0D36;
+    }
+
+    .product-subtitle{
+        font-size: 14px;
+        color: #979797;
+    }
+
+    .cart-image{
+        border-radius: 10px;
+        max-height: 85px;
+    }
+
+    .table-cart{
+        margin-left: -15px;
+        margin-right: -15px;
+
+        th{
+            font-weight: 200;
+        }
+    }
+
+    .btn-remove-cart{
+        @include button-variant(#FC5E84, transparent);
+    }
+    
+}
