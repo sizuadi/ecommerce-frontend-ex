@@ -11194,6 +11194,10 @@ footer p {
   color: #0C0D36;
 }
 
+.page-dashboard #sidebar-wrapper .list-group-item:nth-last-child(1) {
+  margin-top: 100px;
+}
+
 .page-dashboard #wrapper.toggled #sidebar-wrapper {
   margin-left: 0;
 }
@@ -11256,6 +11260,51 @@ footer p {
   font-weight: 300;
   font-size: 16px;
   color: #9191A9;
+}
+
+.page-dashboard .nav-pills .nav-link {
+  font-weight: normal;
+  font-size: 18px;
+  color: #9191A9;
+  border-radius: 0;
+}
+
+.page-dashboard .nav-pills .nav-link.active {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0C0D36;
+  background: none;
+  border-bottom: 2px solid #0C0D36;
+}
+
+.page-dashboard textarea {
+  resize: none;
+}
+
+.page-dashboard .gallery-container .delete-gallery {
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+
+.page-dashboard .gallery-container .delete-gallery img {
+  width: 35px;
+}
+
+.page-dashboard .product-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #C5C5C5;
+}
+
+.page-dashboard .product-subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0C0D36;
+  margin-bottom: 20px;
 }
 
 .component-products {
@@ -11379,6 +11428,22 @@ footer p {
   font-size: 18px;
   line-height: 40px;
   color: #0C0D36;
+}
+
+.card-dashboard-product {
+  margin-bottom: 15px;
+}
+
+.card-dashboard-product .card-body .product-title {
+  font-weight: normal;
+  font-size: 18px;
+  color: #0C0D36;
+}
+
+.card-dashboard-product .card-body .product-category {
+  font-weight: normal;
+  font-size: 16px;
+  color: #C5C5C5;
 }
 
 .slide-fade-enter-active {
